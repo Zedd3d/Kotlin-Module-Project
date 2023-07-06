@@ -64,7 +64,6 @@ object MenuHandler{
             println("Не найден пункт меню - $commandText")
             return null
         }
-
     }
 
     fun canExit(): Boolean {

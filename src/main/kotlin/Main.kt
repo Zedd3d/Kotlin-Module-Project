@@ -1,7 +1,6 @@
 import java.util.Scanner
 
 fun main(args: Array<String>) {
-
     println("Запущена программа \"Заметки\"")
     println("Система принимает ввод команд в виде цифры, указанной слева от названия команды")
     while (true) {
@@ -19,5 +18,4 @@ fun main(args: Array<String>) {
             break
         }
     }
-
 }

@@ -11,7 +11,6 @@ enum class TypesOfMenu {
             NOTE -> "Действия с заметкой"
             VALUENOTE -> "Содержимое заметки"
         }
-
     fun getNextType(): TypesOfMenu =
         when (this) {
             ARCHIVES -> NOTES
@@ -19,8 +18,6 @@ enum class TypesOfMenu {
             NOTE -> VALUENOTE
             VALUENOTE -> VALUENOTE
         }
-
-
     fun getTitleCommand_new(): String =
         when (this) {
             ARCHIVES -> "Добавить новый архив"
